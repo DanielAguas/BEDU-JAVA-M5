@@ -1,3 +1,4 @@
+
 :root{
     --white: #fafafb;
     --purple: #9a67ea;
@@ -9,4 +10,72 @@
 body {
     background: linear-gradient(to bottom, var(--purple), var(--blue-light));
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/*Perfil*/
+
+.perfil h1 {
+    color: var(--white)
+}
+
+.perfil span {
+    color: var(--white);
+    letter-spacing:1px;
+}
+
+#fecha {
+    color: var(--white);
+    padding: 50px 0 5px 0;
+}
+
+/*opciones*/
+
+.opciones ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.opciones h3 {
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.opciones li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, var(--blue-dark), var(--green));
+    border-radius: 15px;
+    padding: 10 px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.opciones i {
+    font-size: 25px;
+
+}
+
+.opciones li:hover {
+    color: var(--blue-light);
+    cursor: pointer;
+}
+
+.opciones > ul p {
+    font-size: 1.2rem;
+}
+
+.opciones ul {
+
 }
