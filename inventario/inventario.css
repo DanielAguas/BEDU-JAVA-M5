@@ -25,6 +25,8 @@ body {
     width: 400px;
     height: 600px;
     margin: 0 auto;
+    align-items: center;
+    text-align: center;
 }
 
 #fecha {
@@ -48,43 +50,16 @@ body {
     letter-spacing:1px;
 }
 
-/*opciones*/
-
-.opciones ul {
+.link a {
     display: flex;
-    gap: 20px;
-    padding: 0;
-    list-style: none;
-}
-
-.opciones h2 {
-    color: var(--white);
-    margin-bottom: 20px;
-}
-
-.opciones li {
-    display: inline-flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, var(--blue-dark), var(--green));
-    border-radius: 15px;
-    padding: 10px;
-    margin: 5px 0;
-    width: auto;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Inherit para que tome el color de .text */
+}
+
+.buscador {
+    align-items: center;
     text-align: center;
-}
-
-.opciones i {
-    font-size: 25px;
-
-}
-
-.opciones li:hover {
-    color: var(--blue-light);
-    cursor: pointer;
-}
-
-.opciones > ul p {
-    font-size: 1.2rem;
 }

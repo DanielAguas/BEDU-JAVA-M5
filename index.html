@@ -10,38 +10,52 @@
 
 <body>
 
-<div class="container">
-    
-    <div class="perfil">
+    <!--NAV BAR-->
+
+    <nav>
+        <div class = "logo">
+            <a href = "/index.html">
+                <img src = "/Fuentes/logoccc (1).png">
+            </a>
+        </div>
+
+        <div class="perfil">
+            <h1>Librería</h1>
+        </div>
+
         <div id="fecha">Lunes 17 de Junio</div>
-        <h1>Librería CCC</h1>
-    </div>
-    
-    <div class="inventario">
-        <input type="text" id="input" placeholder="Inventario">
-    </div>
+
+    </nav>
+
+<div class="container">
 
     <div class="opciones">
-        <h3>Seleccione una de las siguientes opciones:</h3>
+        <h2>Seleccione una de las siguientes opciones:</h2>
         <ul id="lista">
-            <li>
-                <p class="text">Inventario</p>
+            <li class = "link">
+                <a href = "./inventario/inventario.html">
+                <h3 class="text">Ver Inventario</h3>
                 <i class="fa-solid fa-book-open"></i>
+                </a>
             </li>
 
-            <li>
-                <p class="text">Nuevo Artículo</p>
+            <li class = "link">
+                <a href = "./agregar/agregar.html">
+                <h3 class="text">Agregar Artículo</h3>
                 <i class="fa-solid fa-square-plus"></i>
+                </a>
             </li>
 
-            <li>
-                <p class="text">Actualizar Artículo</p>
+            <li class = "link"><a href = "./actualizar/actualizar.html">
+                <h3 class="text">Actualizar Artículo</h3>
                 <i class="fa-solid fa-pen-to-square"></i>
+                </a>
             </li>
 
-            <li>
-                <p class="text">Eliminar Artículo</p>
+            <li class = "link"><a href = "./eliminar/eliminar.html">
+                <h3 class="text">Eliminar Artículo</h3>
                 <i class="fa-solid fa-square-xmark"></i>
+                </a>
             </li>
         </ul>
     </div> 

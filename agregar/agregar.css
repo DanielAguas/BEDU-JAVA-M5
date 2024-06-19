@@ -1,0 +1,44 @@
+
+:root{
+    --white: #fafafb;
+    --purple: #9a67ea;
+    --blue-light: #04d4c3;
+    --blue-dark: #2a73c2;
+    --green: #2c7b98;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--purple), var(--blue-light));
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NAV BAR*/
+.logo img {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.container {
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+#fecha {
+    color: var(--white);
+    padding: 50px 0 5px 0;
+    position: absolute;
+    top: 0;
+    right: 1%;
+}
+
+.perfil h1 {
+    color: var(--white);
+    margin-top: 0px;
+    margin-left: 25px;
+}
